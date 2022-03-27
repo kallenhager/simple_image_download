@@ -65,8 +65,8 @@ def scan_webpage(webpage, extensions, timer):
             break
         counter += 1
     if found:
-        object_ready = check_webpage(object_raw)
-        return object_ready
+        check_webpage(object_raw)
+        return object_raw
 
 
 class Downloader:
